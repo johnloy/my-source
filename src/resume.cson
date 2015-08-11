@@ -1,0 +1,329 @@
+basics:
+  name: 'John'
+  label: 'Web Application Developer'
+  email: 'john@johnloy.net'
+  phone: '434-981-7529'
+  website: 'http://johnloy.net'
+  summary: '''
+    Originally trained as an illustrator and graphic designer, then charmed into
+    web design and development, my natural place in the order of the cosmos is
+    animating pixels to life with code. Distinctions like “front end” versus
+    “back end” and “design” versus “development” never provided much value to
+    me, as I don’t pursue just one or the other. I holistically craft Web apps
+    back-to-front, parts unseen and seen, because I believe that produces a
+    superior result. I bring to all my projects informed instinct—gained through
+    16 years of web development experience—a refined graphic sense, expert CSS
+    skills, meticulous markup, user research know-how, a glorious present
+    flirtation with Clojure, past romances with Ruby, PHP, and even Perl (we
+    might get back together some day), and a love affair for life with
+    Javascript. Of course, that’s not all there is to me, but you’ll have to
+    speak with me in person to view my source! Do you have a need for a web
+    engineer with an artist’s edge? I’m ready.
+  '''
+  location:
+    address: '1516 Amherst St.'
+    postal: '22903'
+    city: 'Charlottesville'
+    countrycode: 'US'
+    region: 'Virginia'
+  profiles: [
+    network: 'Twitter'
+   ,
+    network: 'LinkedIn'
+   ,
+    network: 'Pinboard'
+   ,
+    network: 'About.me'
+   ,
+    network: 'Facebook'
+   ,
+    network: 'Meetup'
+  ]
+
+
+work: [
+
+  company: 'Room Key'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: 'Web Application Developer'
+  website: 'http://roomkey.com'
+  startDate: '2013'
+  endDate: 'present'
+  summary: '''
+    Developed primarily the front end of a hotel meta-search engine that
+    receives millions of visitors every month. Recently also began contributing
+    to back end development (Clojure).
+  '''
+  highlights: [
+    '''
+    Helped develop Room Key's single-page JS application, which involved 150+ 
+    individual JavaScript modules, using Backbone, Sass, and an Express local
+    development server.
+    '''
+   , 
+    '''
+    Designed and produced extensions of the Grunt JavaScript build tool and Sass
+    CSS preprocessor to compose multiple independent "white label" applications
+    from a common set of Room Key front end assets and through a scheme allowing
+    applications to reuse configuration and code from other applications.
+    '''
+   , 
+    '''
+    Devised the CSS/Sass architecture presently used by the RoomKey.com website.
+    '''
+   , 
+    '''
+    Led an initiative to migrate front end JavaScript to the use of the CommonJS 
+    module format in tandem with Webpack and npm scripts for building.
+    '''
+   ,
+    '''
+    Developed an application state management approach that extends the state
+    machine aspect of SPA routing (specifically Backbone routing) to allow
+    "navigation" to any state, not just ones represented by url patterns. This
+    evolved to become the conceptual basis of my open source project Autocrat.
+    '''
+  ] 
+
+ ,
+
+  company: 'Scitent'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: "Web Application Developer"
+  website: "http://scitent.com"
+  startDate: "2011"
+  endDate: "2013"
+  summary: '''
+    Developed an LMS platform on Rails tailored to institutions aiming to
+    monetize and distribute online learning content and award continuing
+    education credits and certifications. Regional clients included Montpelier.
+    National clients included the American Heart Association.
+  '''
+  highlights: [
+    '''
+    Led the development effort to reconceive Scitent’s flagship product, a key
+    distribution system for access to online courses, as a rich single-page
+    Javascript app using BackboneJS and KnockoutJS with a JSON REST API back end.
+    '''
+   , 
+    '''
+    Provided user interface leadership to Scitent’s developer team regarding
+    large-scale CSS and Javascript patterns, best practices, and reusable
+    components.
+    '''
+   , 
+    '''
+    Managed a team of consultants, including developers from Charlottesville,
+    Belarus, and San Francisco, by producing user stories, wireframes, and other
+    forms of feature specification.
+    '''
+  ] 
+
+ ,
+
+  company: 'Intalgent'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: "User Experience Developer"
+  startDate: "2009"
+  endDate: "2011"
+  summary: '''
+    Developed custom web applications for clients from e-commerce, higher
+    education, non-profit, and medical industries.
+  '''
+  highlights: [
+    '''
+    Collaborated with the U.Va. Center For Politics Youth Leadership Initiative
+    to produce a mock online voting web application serving tens of thousands of
+    educators and students worldwide.
+    '''
+   , 
+    '''
+    Conducted user experience research and developed user requirements through
+    the use of user story workshops, think-aloud usability testing, interactive
+    prototyping, wireframing, and web analytics.
+    '''
+   , 
+    '''
+    Engineered and produced front end code for websites and custom web
+    applications, integrated with back ends ranging from Wordpress/PHP CMS
+    implementations, to large-scale Ajax-heavy Rails and Cold Fusion apps.
+    '''
+   , 
+    '''
+    Produced web audio and video, featured on the homepage of a high-traffic
+    e-commerce site, to walk users through a checkout process. This was part of
+    a larger homepage and landing page redesign effort, for which I also set up
+    Google Analytics goal and conversion funnel tracking to aid the client’s ROI
+    analysis.
+    '''
+  ] 
+
+ ,
+
+  company: 'University of Virginia Library'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: 'Web Designer'
+  startDate: '2006'
+  endDate: '2009'
+  summary: '''
+    Maintained and developed the U.Va. Library homepage and top-level pages
+    within its website.
+  '''
+  highlights: [
+    '''
+    Produced and coordinated the implementation of a full visual redesign of the
+    U.Va. Library web presence, involving development of a new template and user
+    interface framework required to accommodate the needs of thousands of pages
+    and dozens of website stakeholders.
+    '''
+   , 
+    '''
+    Advised website stakeholders on matters of user experience design, and
+    steered website design production efforts using assessment information such
+    as findings of the Library’s usability testing and user requirements
+    research team.
+    '''
+   , 
+    '''
+    Conducted training specifically on use of the Library website templates and
+    generally on skills and practices necessary for website maintenance.
+    Prepared and taught a 12-hour intermediate-level course curriculum on CSS to
+    U.Va. Library staff.
+    '''
+   , 
+    '''
+    Produced online public relations materials such as website counterparts to
+    physical exhibitions housed in the U.Va. Library.
+    '''
+  ] 
+
+ ,
+
+  company: 'College and Graduate School of Arts & Sciences, University of Virginia'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: 'Web Master'
+  startDate: '2000'
+  endDate: '2006'
+  summary: '''
+    Stewarded the College and Graduate School through a progressive set of
+    redesigns over 6 years, continually introducing more effective information
+    architecture, visual design, search engine optimization, technological
+    advancement, and site management practices.
+  '''
+  highlights: [
+    '''
+    Taught myself Perl and Unix in order to begin writing CGI scripts to
+    serve the needs of Arts & Sciences. Soon shifted to PHP 3.0 and subsequently
+    used it fairly heavily for the following 5 years.
+    '''
+   , 
+    '''
+    Provided technical support regarding web issues to the 50+ organizations
+    comprising the College and Graduate School.
+    '''
+   ,
+    '''
+    Designed, built, and maintained the first two incarnations of A&S Online,
+    the primary web news publication produced by the College and Graduate School
+    of Arts & Sciences at U.Va., on top of a custom content management system.
+    '''
+   , 
+    '''
+    Implemented the first CSS site design at U.Va. (determined anecdotally)
+    which also hewed to a principle of semantic markup. Led efforts to promote
+    similar practices among peers at U.Va, including helping to form a staff 
+    community centered around leading-edge web design and development practices.
+    '''
+  ] 
+
+ ,
+
+  company: 'Gibson Design Associates'
+  location: [
+    city: 'Charlottesville' 
+    region: 'Virginia'
+  ]
+  position: 'Graphic/Web Designer'
+  startDate: '1998'
+  endDate: '1999'
+  summary: '''
+    Designed print publications and websites. Coded some HTML, but sadly no JS
+    or CSS just yet; Netscape 4.x was the cutting edge.
+  '''
+  highlights: [
+    '''
+    Designed and assisted with production of brochures, pamphlets, posters,
+    corporate identity packages, event invitations, and advertising displays.
+    '''
+   , 
+    '''
+    Designed and produced websites for corporate and non-profit clients,
+    including Monticello and the University of Virginia.
+    '''
+   ,
+    '''
+    Produced illustrations as graphic elements for design projects.
+    '''
+  ] 
+
+]
+
+education: [
+  institution: 'East Carolina University'
+  area: 'Commercial Art, specializing in Illustration'
+  studyType: 'Bachelor of Fine Arts'
+  startDate: '1994'
+  endDate: '1998'
+]
+
+volunteer: [
+  organization: 'Innisfree Store'
+  location:
+    city: 'Charlottesville'
+    region: 'Virginia'
+  startDate: '1998'
+  endDate: '1999'
+  summary:'''
+  Helped clerk and manage a fair trade crafts store.
+  '''
+ ,
+  organization: 'Innisfree Village'
+  location:
+    city: 'Crozet'
+    region: 'Virginia'
+  startDate: '1999'
+  endDate: '2000'
+  summary:'''
+  Provided in-home assistance to adults with disabilities. Started computer
+  skills program for the community.
+  '''
+ ,
+  organization: 'Emergency Food Bank'
+  location:
+    city: 'Charlottesville'
+    region: 'Virginia'
+  startDate: '2000'
+  endDate: '2014'
+  summary:'''
+  Provided in-home assistance to adults with disabilities. Started computer
+  skills program for the community.
+  '''
+  
+]
+
+
